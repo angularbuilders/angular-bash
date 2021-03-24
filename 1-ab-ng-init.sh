@@ -18,6 +18,8 @@ json -I -f apps/web/tsconfig.json -e "this.angularCompilerOptions.strictInjectio
 echo "this.angularCompilerOptions.strictInjectionParameters = true"
 json -I -f apps/web/tsconfig.json -e "this.angularCompilerOptions.strictTemplates = true;"
 echo "this.angularCompilerOptions.strictTemplates = true"
+json -I -f package.json -e "this.scripts.start = 'ng serve -o';"
+echo "this.scripts.start = 'ng serve -o'"
 nx g m core web --module=app --routing --routingScope=Root --no-interactive
 git branch -M main
 git remote add origin https://github.com/ORGANIZATION/REPOSITORY.git
