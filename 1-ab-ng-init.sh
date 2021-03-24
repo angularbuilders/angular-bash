@@ -1,5 +1,5 @@
 echo "🚧 init nx-workspace";
-npm init nx-workspace REPOSITORY --appName=web --defaultBase=main --interactive=false --linter=eslint --nxCloud=false --npmScope=ORGANIZATION --preset=angular --routing=true --style=css
+npm init nx-workspace REPOSITORY --appName=web --defaultBase=main --interactive=false --linter=eslint --nxCloud=false --npmScope=ORGANIZATION --preset=angular --style=css
 cd ORGANIZATION
 echo "on six"
 json -I -f apps/web/tsconfig.json -e "this.compilerOptions = { };"
@@ -20,7 +20,7 @@ json -I -f apps/web/tsconfig.json -e "this.angularCompilerOptions.strictTemplate
 echo "this.angularCompilerOptions.strictTemplates = true"
 json -I -f package.json -e "this.scripts.dev = 'ng serve -o --hmr';"
 echo "this.scripts.dev = 'ng serve -o --hmr'"
-nx g m core web --module=app --routing --routingScope=Root --no-interactive
+nx g module core --module=app --routing --routingScope=Root --no-interactive
 git branch -M main
 git remote add origin https://github.com/ORGANIZATION/REPOSITORY.git
 git add *
