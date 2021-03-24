@@ -1,4 +1,4 @@
-echo "shared libraries ";
+echo "🚧 shared libraries ";
 echo " generate data library";
 nx g library data --directory=shared --importPath=@ab/data  --tags='shared, services'
 nx g interceptor adapter --project=shared-data
@@ -33,4 +33,4 @@ nx g c navbar --project=shared-layout
 nx g c footer --project=shared-layout
 git add *
 git commit -m 'feat: generate layout library'
-echo "DONE: shared libraries ";
+echo "🏠 shared libraries ";

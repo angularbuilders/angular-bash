@@ -1,4 +1,4 @@
-echo "init nx-workspace";
+echo "🚧 init nx-workspace";
 npm init nx-workspace REPOSITORY --appName=web --defaultBase=main --interactive=false --linter=eslint --nxCloud=false --npmScope=ORGANIZATION --preset=angular --routing=true --style=css
 cd ORGANIZATION
 echo "on six"
@@ -23,4 +23,4 @@ git branch -M main
 git remote add origin https://github.com/ORGANIZATION/REPOSITORY.git
 git add *
 git commit -m 'chore: init nx-workspace'
-echo "DONE init nx-workspace";
+echo "🏠 init nx-workspace";

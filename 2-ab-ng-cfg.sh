@@ -1,4 +1,4 @@
-echo "configure ";
+echo "🚧 configure ";
 echo " angular.json ";
 json -I -f angular.json -e "this.schematics['@nrwl/angular'] ={};"
 json -I -f angular.json -e "this.schematics['@nrwl/angular:application'].e2eTestRunner = 'cypress';"
@@ -54,4 +54,4 @@ json -I -f .eslintrc.json -e "this.overrides[1].rules['@typescript-eslint/no-emp
 json -I -f .eslintrc.json -e "this.overrides[1].rules['@angular-eslint/no-empty-lifecycle-method'] = ['off'];"
 git add *
 git commit -m 'chore: configure eslint'
-echo "DONE configure ";
+echo "🏠 configure ";
