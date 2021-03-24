@@ -59,6 +59,7 @@ git commit -m 'chore: configure angular.json'
 echo " .eslintrc.json ";
 json -I -f .eslintrc.json -e "this.overrides[0].rules['@angular-eslint/component-class-suffix'] = ['error',{'suffixes': ['Component','Form','Page','Template','Widget']}];"
 json -I -f .eslintrc.json -e "this.overrides[1].rules['@typescript-eslint/no-empty-function'] = ['off'];"
+# ToDo : add this rule to every lib
 json -I -f .eslintrc.json -e "this.overrides[1].rules['@angular-eslint/no-empty-lifecycle-method'] = ['off'];"
 git add *
 git commit -m 'chore: configure eslint'

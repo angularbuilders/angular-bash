@@ -48,3 +48,7 @@ Generate the scaffolding for large Angular applications
 ## 🦺 Help
 
 - a way to run this script on any platform
+
+## Sample generated app
+
+[Angular.Builders](https://github.com/angularbuilders/angularbuilders)

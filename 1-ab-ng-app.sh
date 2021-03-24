@@ -1,6 +1,5 @@
-echo "🚧 init nx-workspace";
-npm init nx-workspace REPOSITORY --appName=web --defaultBase=main --interactive=false --linter=eslint --nxCloud=false --npmScope=ORGANIZATION --preset=angular --style=css
-cd ORGANIZATION
+# cd ORGANIZATION
+echo "🚧 app strict and core module";
 echo "on six"
 json -I -f apps/web/tsconfig.json -e "this.compilerOptions = { };"
 echo "this.compilerOptions = { }"
@@ -24,5 +23,5 @@ nx g module core --module=app --routing --routingScope=Root --no-interactive
 git branch -M main
 git remote add origin https://github.com/ORGANIZATION/REPOSITORY.git
 git add *
-git commit -m 'chore: init nx-workspace'
-echo "🏠 init nx-workspace";
+git commit -m 'chore: app strict and core module'
+echo "🏠 app strict and core module";

@@ -27,7 +27,7 @@ nx g class validators --project=shared-form
 git add *
 git commit -m 'feat: generate ui library'
 echo " generate layout library";
-nx g library layout --directory=shared --importPath=@ab/layout --prefix=ab-layout --tags='shared, ui'
+nx g library layout --directory=shared --importPath=@ab/layout --prefix=ab --tags='shared, ui'
 nx g c layout --project=shared-layout --flat --export=true
 nx g c navbar --project=shared-layout
 nx g c footer --project=shared-layout
