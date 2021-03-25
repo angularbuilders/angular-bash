@@ -1,4 +1,8 @@
 echo "🚧 shared libraries ";
+echo " generate global library";
+nx g library global --directory=shared --importPath=@ab/global --tags='shared, core'
+nx g class global.tokens --project=shared-data
+ng g interface models/environment --project shared-global
 echo " generate data library";
 nx g library data --directory=shared --importPath=@ab/data  --tags='shared, core'
 nx g interceptor adapter --project=shared-data
