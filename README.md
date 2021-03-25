@@ -2,6 +2,8 @@
 
 Scripts to generate Angular apps with Narwhal Nx dev tools
 
+> by [Angular.Builders](https://www.angular.builders)
+
 ## 🎯 Goal
 
 Generate the scaffolding for large Angular applications
