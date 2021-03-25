@@ -1,5 +1,5 @@
 echo "🚧 auth feature";
-nx g library auth --importPath=@ab/auth --prefix=ab --routing --lazy --parentModule='apps\web\src\app\core\core-routing.module.ts' --tags='domain, page'
+nx g library auth --importPath=@ab/auth --prefix=ab --routing --lazy --parentModule='apps\www\src\app\core\core-routing.module.ts' --tags='domain, page'
 nx g c auth --project=domain-auth --flat --type=Widget --skipTests=false --export=true
 nx g c login --project=domain-auth --flat --type=Page --skipSelector --skipTests=false
 nx g c login --project=domain-auth --type=Form

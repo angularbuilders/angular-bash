@@ -1,6 +1,6 @@
 echo "🚧 shared libraries ";
 echo " generate data library";
-nx g library data --directory=shared --importPath=@ab/data  --tags='shared, services'
+nx g library data --directory=shared --importPath=@ab/data  --tags='shared, core'
 nx g interceptor adapter --project=shared-data
 nx g interceptor tracker --project=shared-data
 nx g class store --project=shared-data
