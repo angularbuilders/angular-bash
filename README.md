@@ -1,4 +1,5 @@
-# code-scripts
+# Angular- Bash
+## code-scripts
 
 Scripts to generate Angular apps with Narwhal Nx dev tools
 
