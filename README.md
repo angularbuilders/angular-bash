@@ -1,57 +1,44 @@
-# Angular- Bash
-## code-scripts
+# Angular - Bash
 
-Scripts to generate Angular apps with Narwhal Nx dev tools
+## Scripts to generate Angular solutions with [nx.dev tools](https://nx.dev/)
 
-> by [Angular.Builders](https://www.angular.builders)
+> by [@AlbertoBasalo](https://twitter.com/albertobasalo) for [Angular.Builders](https://www.angular.builders)
 
 ## 🎯 Goal
 
-Generate the scaffolding for large Angular applications
+Generate the scaffolding for large Angular applications using architecture best practices.
 
 ### 🧰 Tools
 
 - Angular
 - Nx Dev Tools
 - Bulma (optional)
-- Universal (optional)
 
 ## 📋 Instructions
 
-### Mac/Linux/WSL
+- Ready to use on Mac/Linux/WSL
 
-- Customize and run the scripts
-- Use your own variables
-- Feel free to run them in band
+- On Windows install and run inside [Git Bash](https://gitforwindows.org/)
 
-### Windows
+- Customize scripts and variables
 
-- Customize, copy and paste on your terminal each script at a time
+- Run `$ bash 0.sh`
+
+- Enjoy the fly 🌌
 
 ## 🧭 Roadmap
 
-- **Snippets** for generate code to fill the scaffold
+- **Scripts** for generate elements to fill the scaffold
 
-  - constructors with dependencies
-  - shared module imports
-  - crud services
-  - input output decorators
-  - testing
+  - components
+  - services
+  - ...
 
-- **NPM** Scripts
+- **NPM** Improve the original scripts
 
   - dev scripts
   - test scripts
-  - deploy scripts
 
-- Schematics **generators**
+- Schematic **generators**
 
-  - Mis these scripts with snippets to generate a more usable boilerplate
-
-## 🦺 Help
-
-- a way to run this script on any platform
-
-## Sample generated app
-
-[Angular.Builders](https://github.com/angularbuilders/angularbuilders)
+  - Add generators for tailor made components...
