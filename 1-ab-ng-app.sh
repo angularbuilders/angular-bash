@@ -1,6 +1,5 @@
 # cd ORGANIZATION
 echo "🚧 app strict and core module";
-echo "on six"
 json -I -f apps/web/tsconfig.json -e "this.compilerOptions = { };"
 echo "this.compilerOptions = { }"
 json -I -f apps/web/tsconfig.json -e "this.compilerOptions.forceConsistentCasingInFileNames = true;"
